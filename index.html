@@ -15,7 +15,7 @@
   <body>
     <div class="order-prod--wrapper">
       <div class=" order-prod--col order-prod--status-container">
-        <div class="order-prod--row order-prod--status-tracking">
+        <!-- <div class="order-prod--row order-prod--status-tracking">
           <div class="order-prod--col order-prod--status">
             <span id="productStatus" class="order-prod--status-text"
               >Shipped</span
@@ -29,98 +29,48 @@
               ></span
             >
           </div>
-        </div>
+        </div> -->
         <div class="order-prod--row order-prod--grouping-tile">
-          <div class="order-prod--col order-prod--img skeleton-loader">
-            <img id="productImage" class="order-prod--img-graphic" src="" />
+          <div class="order-prod--col order-prod--img">
+            <img
+              id="productImage"
+              class="order-prod--img-graphic skeleton-loader"
+              src=""
+            />
           </div>
           <div class="order-prod--col order-prod--details">
-            <div class="order-prod--row order-prod--brand skeleton-loader">
-              <span id="productBrandName" class="order-prod--brand-text"></span>
+            <div class="order-prod--row order-prod--brand">
+              <span
+                id="productBrandName"
+                class="order-prod--brand-text skeleton-loader"
+              ></span>
             </div>
             <div class="order-prod--row order-prod--name">
               <p class="order-prod--name-para">
                 <span
                   id="productName"
-                  class="order-prod--name-text"
-                  data-title="Gold Standard 100% Whey Protein - Double Rich Chocolate (5 Lbs. / 74 Servings) Abc Abcd Abcdef Abc Abcd Abcdef Abc Abcd Abcdef Abc Abcd Abcdef Abc Abcd Abcdef"
-                  >Gold Standard 100% Whey Protein - Double Rich Chocolate (5
-                  Lbs. / 74 Servings) Abc Abcd Abcdef Abc Abcd Abcdef Abc Abcd
-                  Abcdef Abc Abcd Abcdef Abc Abcd Abcdef</span
-                >
+                  class="order-prod--name-text skeleton-loader"
+                ></span>
               </p>
             </div>
             <div class="order-prod--row order-prod--item-id">
-              <span id="productId" class="order-prod--item-id-text"
-                >Item #:N3-1023 / 2148203
-              </span>
+              <span
+                id="productId"
+                class="order-prod--item-id-text skeleton-loader"
+              ></span>
             </div>
             <div class="order-prod--row order-prod--rating-review">
-              <span class="order-prod--review-text">Write a Review</span>
+              <span
+                id="productReview"
+                class="order-prod--review-text skeleton-loader"
+              ></span>
             </div>
             <div class="order-prod--row order-prod--auto-delivery">
               <span class="order-prod--auto-delivery-message">
-                <span class="order-prod--auto-delivery-message-icon">
-                  <svg
-                    width="20px"
-                    height="24px"
-                    viewBox="0 0 22 26"
-                    version="1.1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    focusable="false"
-                  >
-                    <g
-                      id="Annotated5.6_PDP_V2"
-                      stroke="none"
-                      stroke-width="1"
-                      fill="none"
-                      fill-rule="evenodd"
-                    >
-                      <g
-                        id="L-PDP_Disabled_PickUpInStore"
-                        transform="translate(-878.000000, -677.000000)"
-                      >
-                        <g
-                          id="adp-icon"
-                          transform="translate(879.000000, 678.000000)"
-                        >
-                          <g id="Group">
-                            <g
-                              stroke="#012169"
-                              stroke-linejoin="round"
-                              stroke-width="1.572534"
-                            >
-                              <path
-                                d="M18.5056,6.66938776 L15.0912,7.59836735 C14.4736,6.8522449 13.6864,6.23183673 12.7568,5.80408163 L12.7568,5.80408163 C9.4208,4.28408163 5.4928,5.8155102 4.0032,9.22122449 C2.9552,11.6146939 3.3056,14.1861224 4.8144,16.1028571 L1.432,17.0057143 C-0.1424,14.2791837 -0.3616,10.9616327 1,7.85142857 C3.232,2.74938776 9.0976,0.460408163 14.0992,2.73959184 L14.0992,2.73959184 L15.2544,0.102857143 L18.5056,6.66938776 Z"
-                                id="Path"
-                              ></path>
-                              <path
-                                d="M19.1072,16.1061224 C16.8768,21.2 11.0288,23.4889796 6.0336,21.2293878 L4.8576,23.915102 L1.648,17.3518367 L5.0448,16.404898 C5.6592,17.1297959 6.4352,17.7338776 7.3504,18.1518367 C7.3584,18.155102 7.3664,18.1583673 7.3744,18.1616327 L7.3744,18.1632653 C10.7056,19.6653061 14.616,18.1322449 16.1024,14.7363265 C17.12,12.4130612 16.7408,9.80897959 15.3392,7.90693878 L18.6928,7.0155102 C20.1792,9.71265306 20.4384,13.0661224 19.1072,16.1061224 Z"
-                                id="Path"
-                              ></path>
-                            </g>
-                            <g fill-rule="nonzero">
-                              <path
-                                d="M1.304,16.715102 C-0.176,13.8955102 -0.3056,10.8244898 0.9952,7.85142857 C3.2288,2.74938776 9.0944,0.460408163 14.096,2.73959184 L14.096,2.73959184 L15.2512,0.102857143 L18.5024,6.67102041 L15.088,7.6 C14.4704,6.85387755 13.6832,6.23346939 12.7536,5.80571429 L12.7536,5.80571429 C9.4176,4.28571429 5.4896,5.81714286 4,9.22285714 C2.9968,11.5134694 3.2752,13.9640816 4.6208,15.8497959 L1.304,16.715102 Z"
-                                id="Path"
-                                fill="#008935"
-                              ></path>
-                              <path
-                                d="M18.8144,7.24734694 C20.1888,9.90204082 20.3984,13.1510204 19.104,16.1061224 C16.8736,21.2 11.0256,23.4889796 6.0304,21.2293878 L4.8544,23.915102 L1.6448,17.3518367 L5.0416,16.404898 C5.656,17.1297959 6.432,17.7338776 7.3472,18.1518367 C7.3552,18.155102 7.3632,18.1583673 7.3712,18.1616327 L7.3712,18.1632653 C10.7024,19.6653061 14.6128,18.1322449 16.0992,14.7363265 C17.072,12.5159184 16.768,10.0391837 15.5152,8.16326531 L18.8144,7.24734694 Z"
-                                id="Path"
-                                fill="#A1D5B6"
-                              ></path>
-                            </g>
-                          </g>
-                        </g>
-                      </g>
-                    </g>
-                  </svg>
-                </span>
-                <span class="order-prod--auto-delivery-message-text"
-                  >Auto delivery available</span
-                >
+                <span
+                  id="productAvailabilityMessage"
+                  class="order-prod--auto-delivery-message-text skeleton-loader"
+                ></span>
               </span>
             </div>
           </div>
@@ -129,43 +79,74 @@
               <span class="order-prod--qty-text">Qty. & Price</span>
             </div>
             <div class="order-prod--row order-prod--price">
-              <span id="productQtyPrice" class="order-prod--price-text"
-                >1@$8.99</span
-              >
+              <span
+                id="productQtyPrice"
+                class="order-prod--price-text skeleton-loader"
+              ></span>
             </div>
             <div class="order-prod--row order-prod--warning-message">
               <span class="order-prod--warning-message-icon">
                 <svg
-                  width="21px"
-                  height="18px"
-                  viewBox="0 0 21 18"
+                  width="20px"
+                  height="24px"
+                  viewBox="0 0 22 26"
                   version="1.1"
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
+                  focusable="false"
                 >
                   <g
+                    id="Annotated5.6_PDP_V2"
                     stroke="none"
                     stroke-width="1"
                     fill="none"
                     fill-rule="evenodd"
                   >
                     <g
-                      transform="translate(-42.000000, -448.000000)"
-                      fill="#975809"
-                      fill-rule="nonzero"
+                      id="L-PDP_Disabled_PickUpInStore"
+                      transform="translate(-878.000000, -677.000000)"
                     >
-                      <g transform="translate(42.000000, 448.000000)">
-                        <path
-                          d="M0,18 L21,18 L10.5,0 L0,18 Z M11.4545455,15.1578947 L9.54545455,15.1578947 L9.54545455,13.2631579 L11.4545455,13.2631579 L11.4545455,15.1578947 Z M11.4545455,11.3684211 L9.54545455,11.3684211 L9.54545455,7.57894737 L11.4545455,7.57894737 L11.4545455,11.3684211 Z"
-                        ></path>
+                      <g
+                        id="adp-icon"
+                        transform="translate(879.000000, 678.000000)"
+                      >
+                        <g id="Group">
+                          <g
+                            stroke="#012169"
+                            stroke-linejoin="round"
+                            stroke-width="1.572534"
+                          >
+                            <path
+                              d="M18.5056,6.66938776 L15.0912,7.59836735 C14.4736,6.8522449 13.6864,6.23183673 12.7568,5.80408163 L12.7568,5.80408163 C9.4208,4.28408163 5.4928,5.8155102 4.0032,9.22122449 C2.9552,11.6146939 3.3056,14.1861224 4.8144,16.1028571 L1.432,17.0057143 C-0.1424,14.2791837 -0.3616,10.9616327 1,7.85142857 C3.232,2.74938776 9.0976,0.460408163 14.0992,2.73959184 L14.0992,2.73959184 L15.2544,0.102857143 L18.5056,6.66938776 Z"
+                              id="Path"
+                            ></path>
+                            <path
+                              d="M19.1072,16.1061224 C16.8768,21.2 11.0288,23.4889796 6.0336,21.2293878 L4.8576,23.915102 L1.648,17.3518367 L5.0448,16.404898 C5.6592,17.1297959 6.4352,17.7338776 7.3504,18.1518367 C7.3584,18.155102 7.3664,18.1583673 7.3744,18.1616327 L7.3744,18.1632653 C10.7056,19.6653061 14.616,18.1322449 16.1024,14.7363265 C17.12,12.4130612 16.7408,9.80897959 15.3392,7.90693878 L18.6928,7.0155102 C20.1792,9.71265306 20.4384,13.0661224 19.1072,16.1061224 Z"
+                              id="Path"
+                            ></path>
+                          </g>
+                          <g fill-rule="nonzero">
+                            <path
+                              d="M1.304,16.715102 C-0.176,13.8955102 -0.3056,10.8244898 0.9952,7.85142857 C3.2288,2.74938776 9.0944,0.460408163 14.096,2.73959184 L14.096,2.73959184 L15.2512,0.102857143 L18.5024,6.67102041 L15.088,7.6 C14.4704,6.85387755 13.6832,6.23346939 12.7536,5.80571429 L12.7536,5.80571429 C9.4176,4.28571429 5.4896,5.81714286 4,9.22285714 C2.9968,11.5134694 3.2752,13.9640816 4.6208,15.8497959 L1.304,16.715102 Z"
+                              id="Path"
+                              fill="#008935"
+                            ></path>
+                            <path
+                              d="M18.8144,7.24734694 C20.1888,9.90204082 20.3984,13.1510204 19.104,16.1061224 C16.8736,21.2 11.0256,23.4889796 6.0304,21.2293878 L4.8544,23.915102 L1.6448,17.3518367 L5.0416,16.404898 C5.656,17.1297959 6.432,17.7338776 7.3472,18.1518367 C7.3552,18.155102 7.3632,18.1583673 7.3712,18.1616327 L7.3712,18.1632653 C10.7024,19.6653061 14.6128,18.1322449 16.0992,14.7363265 C17.072,12.5159184 16.768,10.0391837 15.5152,8.16326531 L18.8144,7.24734694 Z"
+                              id="Path"
+                              fill="#A1D5B6"
+                            ></path>
+                          </g>
+                        </g>
                       </g>
                     </g>
                   </g>
                 </svg>
               </span>
-              <span class="order-prod--warning-message-text"
-                >1 qty cancelled</span
-              >
+              <span
+                id="productPromoMessage"
+                class="order-prod--warning-message-text skeleton-loader"
+              ></span>
             </div>
           </div>
           <div class="order-prod--col order-prod--cta-disclaimer">

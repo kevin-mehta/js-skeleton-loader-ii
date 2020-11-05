@@ -1,6 +1,7 @@
 .skeleton-loader:empty {
   width: 100%;
   height: 15px;
+  /* height: inherit; */
   display: block;
   background-image: linear-gradient(
       100deg,
