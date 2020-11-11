@@ -9,7 +9,7 @@
       rgba(255, 255, 255, 0.5) 50%,
       rgba(255, 255, 255, 0) 80%
     ),
-    linear-gradient(lightgray 20px, transparent 0);
+    linear-gradient(lightgray 100%, transparent 0);
   background-repeat: repeat-y;
   background-size: 50px 200px, /* highlight */ 100% 200px;
   background-position: 0 0, /* highlight */ 0 0;
