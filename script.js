@@ -20,14 +20,14 @@ document.addEventListener("DOMContentLoaded", function() {
     xhr.onload = function() {
       var res = JSON.parse(xhr.responseText);
       console.log("res: ", res);
-      eleProductImage.src = res.image;
-      eleProductBrandName.innerHTML = res.category;
-      eleProductName.innerHTML = res.title;
-      eleProductId.innerHTML = res.description;
-      eleProductReview.innerHTML = "Write a Review";
-      eleProductAvailabilityMessage.innerHTML = "Only 1 left in stock";
-      eleProductQtyPrice.innerHTML = res.price;
-      eleProductPromoMessage.innerHTML = "10% off with SBI Credit Cards";
+      // eleProductImage.src = res.image;
+      // eleProductBrandName.innerHTML = res.category;
+      // eleProductName.innerHTML = res.title;
+      // eleProductId.innerHTML = res.description;
+      // eleProductReview.innerHTML = "Write a Review";
+      // eleProductAvailabilityMessage.innerHTML = "Only 1 left in stock";
+      // eleProductQtyPrice.innerHTML = res.price;
+      // eleProductPromoMessage.innerHTML = "10% off with SBI Credit Cards";
     };
     xhr.send();
   }
